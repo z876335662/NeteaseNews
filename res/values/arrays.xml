@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="biz_sns_youdao_error_code">
+        <item>1001</item>
+        <item>1002</item>
+        <item>1003</item>
+        <item>1004</item>
+        <item>1005</item>
+        <item>1006</item>
+        <item>1007</item>
+        <item>1008</item>
+        <item>1009</item>
+        <item>1010</item>
+        <item>1011</item>
+        <item>1012</item>
+        <item>1013</item>
+        <item>1014</item>
+        <item>1015</item>
+        <item>206</item>
+        <item>207</item>
+        <item>209</item>
+        <item>210</item>
+        <item>214</item>
+        <item>220</item>
+        <item>221</item>
+        <item>225</item>
+        <item>231</item>
+        <item>304</item>
+        <item>307</item>
+    </string-array>
+    <string-array name="biz_sns_youdao_error_name">
+        <item>token_rejected</item>
+        <item>parameter_rejected</item>
+        <item>version_rejected：OAuth版本号不是1.0</item>
+        <item>系统时间错误</item>
+        <item>nonce_used：5分钟内该nonce被使用</item>
+        <item>缺少参数</item>
+        <item>oauth签名异常</item>
+        <item>signature_method_rejected：oauth server没有提供该签名方法</item>
+        <item>access_state_error</item>
+        <item>consumer_rejected</item>
+        <item>accessor_rejected</item>
+        <item>callback_error</item>
+        <item>callback_domain_error</item>
+        <item>verifier_error</item>
+        <item>permission_denied</item>
+        <item>错误的URI请求</item>
+        <item>用户认证错误</item>
+        <item>请求的资源（笔记本、笔记、附件等）不存在</item>
+        <item>用户空间已满</item>
+        <item>错误的传入参数，必须的参数为空等</item>
+        <item>用户不存在</item>
+        <item>用户已经存在，不能重复注册</item>
+        <item>笔记本尚不存在，不能在该笔记本下创建笔记</item>
+        <item>该笔记或者附件已经存在，不能重复创建</item>
+        <item>笔记已经被删除</item>
+        <item>无效的第三方应用</item>
+    </string-array>
+    <string-array name="biz_news_column_name_array">
+        <item>头条</item>
+        <item>娱乐</item>
+        <item>体育</item>
+        <item>财经</item>
+        <item>科技</item>
+        <item>另一面</item>
+        <item>彩票</item>
+        <item>军事</item>
+        <item>NBA</item>
+        <item>汽车</item>
+    </string-array>
+    <string-array name="biz_news_column_id_array">
+        <item>T1348647909107</item>
+        <item>T1348648517839</item>
+        <item>T1348649079062</item>
+        <item>T1348648756099</item>
+        <item>T1348649580692</item>
+        <item>T1348654756909</item>
+        <item>T1356600029035</item>
+        <item>T1348648141035</item>
+        <item>T1348649145984</item>
+        <item>T1348654060988</item>
+    </string-array>
+    <string-array name="biz_news_column_ename_array">
+        <item>androidnews</item>
+        <item>yule</item>
+        <item>tiyu</item>
+        <item>caijing</item>
+        <item>keji</item>
+        <item>lingyimian</item>
+        <item>caipiao</item>
+        <item>junshi</item>
+        <item>NBA</item>
+        <item>qiche</item>
+    </string-array>
+    <array name="biz_news_column_icon_array">
+        <item>0</item>
+        <item>@drawable/biz_news_column_subscribe_recommend_yule</item>
+        <item>@drawable/biz_news_column_subscribe_recommend_tiyu</item>
+        <item>@drawable/biz_news_column_subscribe_recommend_caijing</item>
+        <item>@drawable/biz_news_column_subscribe_recommend_keji</item>
+        <item>0</item>
+        <item>@drawable/biz_news_column_subscribe_recommend_lingyimian</item>
+        <item>@drawable/biz_news_column_subscribe_recommend_caipiao</item>
+        <item>@drawable/biz_news_column_subscribe_recommend_junshi</item>
+        <item>@drawable/biz_news_column_subscribe_recommend_nba</item>
+        <item>@drawable/biz_news_column_subscribe_recommend_qiche</item>
+    </array>
+    <integer-array name="biz_news_column_checked_array">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="biz_setting_textsize_array">
+        <item>特大号字</item>
+        <item>大号字</item>
+        <item>中号字</item>
+        <item>小号字</item>
+    </string-array>
+    <string-array name="biz_news_detailpage_overflow_items">
+        <item>写跟贴</item>
+        <item>分享</item>
+        <item>收藏</item>
+        <item>取消收藏</item>
+        <item>字体大小</item>
+    </string-array>
+    <string-array name="biz_pc_favorite_overflow_items">
+        <item>新闻收藏</item>
+        <item>跟帖收藏</item>
+        <item>图片收藏</item>
+    </string-array>
+    <string-array name="biz_pc_mail_suffix">
+        <item>\@163.com</item>
+        <item>\@126.com</item>
+        <item>\@yeah.net</item>
+        <item>\@vip.163.com</item>
+        <item>\@vip.126.com</item>
+        <item>\@popo.163.com</item>
+        <item>\@188.com</item>
+        <item>\@vip.188.com</item>
+        <item>\@qq.com</item>
+        <item>\@yahoo.com</item>
+        <item>\@sina.com</item>
+    </string-array>
+    <string-array name="biz_plugin_mail_suffix">
+        <item>\@163.com</item>
+        <item>\@126.com</item>
+        <item>\@yeah.net</item>
+        <item>\@188.com</item>
+    </string-array>
+    <string-array name="base_default_plugins">
+        <item>6|1|com.netease.nr.biz.plugin.plugin.SettingPlugin</item>
+        <item>1|0|com.netease.nr.biz.plugin.plugin.WeatherPlugin</item>
+        <item>2|0|com.netease.nr.biz.plugin.plugin.OfflinePlugin</item>
+        <item>3|0|com.netease.nr.biz.plugin.plugin.ThemePlugin</item>
+        <item>4|0|com.netease.nr.biz.plugin.plugin.NewsSearchPlugin</item>
+        <item>5|0|com.netease.nr.biz.plugin.plugin.MailPlugin</item>
+    </string-array>
+</resources>

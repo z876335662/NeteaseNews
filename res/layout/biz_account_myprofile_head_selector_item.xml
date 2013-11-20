@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/selector_item_zone" android:layout_width="@dimen/biz_account_profile_selector_width" android:layout_height="@dimen/biz_account_profile_selector_height" android:layout_marginTop="10.0dip">
+        <ImageView android:id="@id/selector_item_img" android:background="@drawable/biz_account_head_selector_bg" android:layout_width="@dimen/biz_account_profile_selector_head_width" android:layout_height="@dimen/biz_account_profile_selector_head_height" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/selector_item_icon" android:layout_width="@dimen/biz_account_profile_selector_icon_width" android:layout_height="@dimen/biz_account_profile_selector_icon_height" android:src="@drawable/biz_pc_list_search_icon" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/base_text_size_12" android:textColor="@color/biz_account_head_selector_sns_color" android:gravity="center" android:id="@id/selector_item_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" />
+</LinearLayout>

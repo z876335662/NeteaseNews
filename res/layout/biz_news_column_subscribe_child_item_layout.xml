@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:background="@drawable/base_layout_bg_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top" android:id="@id/first_shadow" android:background="@drawable/biz_news_column_subscribe_child_item_first_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    <RelativeLayout android:paddingLeft="65.0dip" android:paddingRight="16.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="52.0dip">
+        <TextView android:textSize="@dimen/biz_news_column_subscribe_child_item_textsize" android:textStyle="bold" android:textColor="#ff646464" android:layout_gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/subscribe" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/divider" android:paddingRight="@dimen/base_listitem_padding_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/base_list_divider_drawable" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

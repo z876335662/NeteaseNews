@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@color/base_main_bg_color" android:paddingLeft="@dimen/biz_plugin_weather_paddingLeftAndRight" android:paddingTop="@dimen/biz_plugin_weather_paddingTopAndBottom" android:paddingRight="@dimen/biz_plugin_weather_paddingLeftAndRight" android:paddingBottom="@dimen/biz_plugin_weather_paddingTopAndBottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/weather_today" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/biz_plugin_weather_first_item_margin_top" android:layout_alignParentTop="true" layout="@layout/biz_plugin_weather_item_first" />
+    <ImageView android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/base_list_divider_drawable" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <com.netease.nr.base.view.ViewPagerWithIndicator android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="165.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" android:overScrollMode="never" />
+</RelativeLayout>

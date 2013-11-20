@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pic_show_item" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/base_small_progressbar_style" />
+        <com.netease.nr.base.view.MyImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/biz_pic_wait_down_img" />
+    </LinearLayout>
+    <com.netease.nr.biz.pics.PicShowView android:id="@id/picture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/biz_news_column_edit_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.netease.nr.base.view.DividerLinearLayout android:orientation="horizontal" android:id="@id/edit_container" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/subscribe" android:background="@drawable/biz_news_column_edit_bg" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="@color/biz_news_column_edit_subscribe" android:layout_gravity="center" android:id="@id/subscribe_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/biz_news_column_subscribe" android:drawableLeft="@drawable/biz_news_column_add_subscribe" />
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/edit" android:background="@drawable/biz_news_column_edit_bg" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="@color/biz_news_column_edit" android:layout_gravity="center" android:id="@id/edit_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/biz_news_column_edit" />
+        </FrameLayout>
+    </com.netease.nr.base.view.DividerLinearLayout>
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/finish" android:background="@drawable/biz_news_column_edit_bg" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_alignTop="@id/edit_container" android:layout_alignBottom="@id/edit_container">
+        <TextView android:textSize="15.0sp" android:textColor="@color/biz_news_column_edit_finish" android:layout_gravity="center" android:id="@id/finish_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/biz_news_column_edit_complete" android:singleLine="true" android:drawableLeft="@drawable/biz_news_column_edit_finish" android:drawablePadding="3.0dip" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.netease.nr.biz.ad.AdImageView
+        android:id="@id/adimg"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="78.0"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:id="@id/biz_ad_copyright_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="22.0"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@id/biz_ad_img_slogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/biz_ad_slogan" />
+
+        <TextView
+            android:id="@id/biz_ad_txt_copyright"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:gravity="center"
+            android:text="@string/copyright"
+            android:textAppearance="@style/biz_ad_copyright_style" />
+    </LinearLayout>
+
+</LinearLayout>

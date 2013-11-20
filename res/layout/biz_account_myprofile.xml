@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/account_myprofile_bg" android:background="@drawable/base_layout_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.netease.nr.base.view.MyImageView android:layout_gravity="center" android:id="@id/biz_account_myprofile_avartar" android:background="@drawable/biz_pc_account_avatar_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/biz_account_profile_margin" />
+        <RelativeLayout android:id="@id/tabrow_update_nickname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/biz_account_profile_table_margin">
+            <EditText android:textColorHint="@color/base_edittext_hint_color" android:id="@id/biz_pc_account_update_nickname" android:background="@drawable/base_search_edittext_selector" android:paddingLeft="45.0dip" android:saveEnabled="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="70.0dip" android:layout_centerVertical="true" android:inputType="textEmailAddress" android:imeOptions="actionDone" />
+            <TextView android:textAppearance="@style/biz_pc_profile_account_title_style" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/biz_pc_account_label_nickname" android:layout_alignLeft="@id/biz_pc_account_update_nickname" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/biz_pc_account_update_confirm" android:background="@drawable/biz_update_confirm_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/biz_account_profile_table_margin" android:layout_marginRight="@dimen/biz_account_profile_table_margin">
+            <TableRow android:gravity="left|center" android:id="@id/tabrow_nickname" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/biz_account_profile_tablerow_height">
+                <TextView android:textAppearance="@style/biz_pc_profile_account_title_style" android:id="@id/account_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/biz_pc_account_label_nickname" />
+                <TextView android:textAppearance="@style/biz_pc_profile_nickname_style" android:id="@id/biz_pc_account_text_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow android:gravity="left|center" android:id="@id/profile_line_one" android:background="@drawable/base_list_divider_drawable" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TableRow android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/biz_account_profile_tablerow_height">
+                <TextView android:textAppearance="@style/biz_pc_profile_account_title_style" android:id="@id/account_local" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/biz_pc_account_label_local" />
+                <TextView android:textAppearance="@style/biz_pc_profile_nickname_style" android:id="@id/biz_pc_account_text_local" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow android:gravity="left|center" android:id="@id/profile_line_sec" android:background="@drawable/base_list_divider_drawable" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TableRow android:gravity="left|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/biz_account_profile_tablerow_height">
+                <TextView android:textAppearance="@style/biz_pc_profile_account_title_style" android:id="@id/account_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/biz_pc_account_label_account" />
+                <TextView android:textAppearance="@style/biz_pc_profile_nickname_style" android:id="@id/biz_pc_account_text_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            </TableRow>
+            <TableRow android:gravity="left|center" android:id="@id/profile_line_thr" android:background="@drawable/base_list_divider_drawable" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </TableLayout>
+    </LinearLayout>
+    <TextView android:id="@id/update_nick_msg" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/biz_pc_update_nick_msg" android:singleLine="true" />
+</FrameLayout>

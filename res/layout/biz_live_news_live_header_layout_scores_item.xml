@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/biz_live_olympic_title_scores_style" android:gravity="center" android:id="@id/score_thousand" android:background="@drawable/biz_live_news_live_score_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/biz_live_olympic_title_scores_style" android:gravity="center" android:id="@id/score_hundred" android:background="@drawable/biz_live_news_live_score_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/biz_live_olympic_title_scores_style" android:gravity="center" android:id="@id/score_ten" android:background="@drawable/biz_live_news_live_score_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/biz_live_olympic_title_scores_style" android:gravity="center" android:id="@id/score_individual" android:background="@drawable/biz_live_news_live_score_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/process_item" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/biz_pc_plugin_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="40.0dip" android:layout_toRightOf="@id/biz_pc_plugin_icon" android:layout_centerVertical="true">
+        <TextView android:textAppearance="@style/biz_pc_offline_download_title_style" android:id="@id/digest" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ProgressBar android:id="@id/progressbar" android:background="@drawable/biz_pc_list_offline_processbar_bg" android:layout_width="fill_parent" android:layout_height="5.0dip" style="@style/progressBarHorizontal_color" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/cancel" android:paddingLeft="80.0dip" android:paddingRight="@dimen/biz_pc_main_plugin_list_icon_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center" android:paddingLeft="@dimen/biz_pc_main_plugin_list_icon_margin" android:paddingRight="@dimen/biz_pc_main_plugin_list_icon_margin" android:layout_width="@dimen/biz_pc_main_plugin_list_icon_width" android:layout_height="@dimen/biz_pc_main_plugin_list_icon_width" android:src="@drawable/biz_pc_offline_cancel_selector" android:scaleType="center" />
+    </FrameLayout>
+</RelativeLayout>
